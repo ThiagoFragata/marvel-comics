@@ -56,7 +56,6 @@ const Characters: React.FC = () => {
                 alt="thumbnail"
               />
               <h2>{character.name}</h2>
-              {/* <p>{character.description}</p> */}
               <a href={`/character/${character.id}`}>Saiba mais...</a>
             </div>
           );
